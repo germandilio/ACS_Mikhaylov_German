@@ -8,6 +8,7 @@ Container contains 13 elements.
 1 1 1 1 1 
 1 1 1 1 1 
 Average = 1
+
 1: Diagonal matrix with dimension = 7
 1 0 0 0 0 0 0 
 0 1 0 0 0 0 0 
@@ -56,6 +57,7 @@ Average = 1
 -2 2 -2 2 
 2 -2 2 -2 
 Average = 0
+
 5: Diagonal matrix with dimension = 2
 -2 0 
 0 -2 
@@ -64,6 +66,7 @@ Average = -1
 6: Regular matrix with dimension = 1
 0 
 Average = 0
+
 7: Diagonal matrix with dimension = 3
 3 0 0 
 0 4 0 
@@ -92,6 +95,7 @@ Average = 1
 13.9207 -5.18779 18.873 8.87054 17.2452 10.3652 -2.10143 
 -8.69308 -4.52198 19.1496 7.65382 -2.22931 1.9066 4.27025 
 Average = 5.20037
+
 11: Triangle matrix with dimension = 13
 14.0729 0 0 0 0 0 0 0 0 0 0 0 0 
 2.72462 12.6137 0 0 0 0 0 0 0 0 0 0 0 
