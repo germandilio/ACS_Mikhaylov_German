@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/germandilio/Downloads/Homework_01
+CMAKE_SOURCE_DIR = /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/germandilio/Downloads/Homework_01/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/task01.dir/depend.make
@@ -68,81 +68,81 @@ include CMakeFiles/task01.dir/flags.make
 
 CMakeFiles/task01.dir/regularmatrix.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/regularmatrix.cpp.o: ../regularmatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Downloads/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task01.dir/regularmatrix.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/regularmatrix.cpp.o -c /Users/germandilio/Downloads/Homework_01/regularmatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task01.dir/regularmatrix.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/regularmatrix.cpp.o -c /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/regularmatrix.cpp
 
 CMakeFiles/task01.dir/regularmatrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/regularmatrix.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Downloads/Homework_01/regularmatrix.cpp > CMakeFiles/task01.dir/regularmatrix.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/regularmatrix.cpp > CMakeFiles/task01.dir/regularmatrix.cpp.i
 
 CMakeFiles/task01.dir/regularmatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/regularmatrix.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Downloads/Homework_01/regularmatrix.cpp -o CMakeFiles/task01.dir/regularmatrix.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/regularmatrix.cpp -o CMakeFiles/task01.dir/regularmatrix.cpp.s
 
 CMakeFiles/task01.dir/trianglematrix.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/trianglematrix.cpp.o: ../trianglematrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Downloads/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task01.dir/trianglematrix.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/trianglematrix.cpp.o -c /Users/germandilio/Downloads/Homework_01/trianglematrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task01.dir/trianglematrix.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/trianglematrix.cpp.o -c /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/trianglematrix.cpp
 
 CMakeFiles/task01.dir/trianglematrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/trianglematrix.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Downloads/Homework_01/trianglematrix.cpp > CMakeFiles/task01.dir/trianglematrix.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/trianglematrix.cpp > CMakeFiles/task01.dir/trianglematrix.cpp.i
 
 CMakeFiles/task01.dir/trianglematrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/trianglematrix.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Downloads/Homework_01/trianglematrix.cpp -o CMakeFiles/task01.dir/trianglematrix.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/trianglematrix.cpp -o CMakeFiles/task01.dir/trianglematrix.cpp.s
 
 CMakeFiles/task01.dir/diagonalmatrix.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/diagonalmatrix.cpp.o: ../diagonalmatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Downloads/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task01.dir/diagonalmatrix.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/diagonalmatrix.cpp.o -c /Users/germandilio/Downloads/Homework_01/diagonalmatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task01.dir/diagonalmatrix.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/diagonalmatrix.cpp.o -c /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/diagonalmatrix.cpp
 
 CMakeFiles/task01.dir/diagonalmatrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/diagonalmatrix.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Downloads/Homework_01/diagonalmatrix.cpp > CMakeFiles/task01.dir/diagonalmatrix.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/diagonalmatrix.cpp > CMakeFiles/task01.dir/diagonalmatrix.cpp.i
 
 CMakeFiles/task01.dir/diagonalmatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/diagonalmatrix.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Downloads/Homework_01/diagonalmatrix.cpp -o CMakeFiles/task01.dir/diagonalmatrix.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/diagonalmatrix.cpp -o CMakeFiles/task01.dir/diagonalmatrix.cpp.s
 
 CMakeFiles/task01.dir/matrix.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/matrix.cpp.o: ../matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Downloads/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task01.dir/matrix.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/matrix.cpp.o -c /Users/germandilio/Downloads/Homework_01/matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task01.dir/matrix.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/matrix.cpp.o -c /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/matrix.cpp
 
 CMakeFiles/task01.dir/matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/matrix.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Downloads/Homework_01/matrix.cpp > CMakeFiles/task01.dir/matrix.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/matrix.cpp > CMakeFiles/task01.dir/matrix.cpp.i
 
 CMakeFiles/task01.dir/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/matrix.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Downloads/Homework_01/matrix.cpp -o CMakeFiles/task01.dir/matrix.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/matrix.cpp -o CMakeFiles/task01.dir/matrix.cpp.s
 
 CMakeFiles/task01.dir/container.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/container.cpp.o: ../container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Downloads/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task01.dir/container.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/container.cpp.o -c /Users/germandilio/Downloads/Homework_01/container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task01.dir/container.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/container.cpp.o -c /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/container.cpp
 
 CMakeFiles/task01.dir/container.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/container.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Downloads/Homework_01/container.cpp > CMakeFiles/task01.dir/container.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/container.cpp > CMakeFiles/task01.dir/container.cpp.i
 
 CMakeFiles/task01.dir/container.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/container.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Downloads/Homework_01/container.cpp -o CMakeFiles/task01.dir/container.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/container.cpp -o CMakeFiles/task01.dir/container.cpp.s
 
 CMakeFiles/task01.dir/main.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Downloads/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task01.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/main.cpp.o -c /Users/germandilio/Downloads/Homework_01/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task01.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/main.cpp.o -c /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/main.cpp
 
 CMakeFiles/task01.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Downloads/Homework_01/main.cpp > CMakeFiles/task01.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/main.cpp > CMakeFiles/task01.dir/main.cpp.i
 
 CMakeFiles/task01.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Downloads/Homework_01/main.cpp -o CMakeFiles/task01.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/main.cpp -o CMakeFiles/task01.dir/main.cpp.s
 
 # Object files for target task01
 task01_OBJECTS = \
@@ -164,7 +164,7 @@ task01_EXTERNAL_OBJECTS =
 ../bin/task01: CMakeFiles/task01.dir/main.cpp.o
 ../bin/task01: CMakeFiles/task01.dir/build.make
 ../bin/task01: CMakeFiles/task01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/germandilio/Downloads/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/task01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/task01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +176,6 @@ CMakeFiles/task01.dir/clean:
 .PHONY : CMakeFiles/task01.dir/clean
 
 CMakeFiles/task01.dir/depend:
-	cd /Users/germandilio/Downloads/Homework_01/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/germandilio/Downloads/Homework_01 /Users/germandilio/Downloads/Homework_01 /Users/germandilio/Downloads/Homework_01/cmake-build-debug /Users/germandilio/Downloads/Homework_01/cmake-build-debug /Users/germandilio/Downloads/Homework_01/cmake-build-debug/CMakeFiles/task01.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01 /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01 /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug /Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_01/cmake-build-debug/CMakeFiles/task01.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/task01.dir/depend
 

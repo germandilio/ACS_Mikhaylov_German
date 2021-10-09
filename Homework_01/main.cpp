@@ -46,6 +46,9 @@ void errMessage2() {
 
 
 int main(int argc, char *argv[]) {
+    double timeSpent = 0.0;
+    clock_t begin = clock();
+
     if (argc != 5) {
         errMessage1();
         return 1;
@@ -96,5 +99,10 @@ int main(int argc, char *argv[]) {
 
     Clear(c);
     std::cout << "Stop" << std::endl;
+
+    clock_t end = clock();
+    timeSpent = (double)(end - begin);
+    std::cout << "Time spent: " <<timeSpent / CLOCKS_PER_SEC << "\n";
+
     return 0;
 }
