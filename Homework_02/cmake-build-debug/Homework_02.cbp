@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Homework_02"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Homework_02">
+				<Option output="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/bin/Homework_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/../../../../../../include/c++/11.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/../../../../../../include/c++/11.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/../../../../../../include/c++/11.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Homework_02/fast">
+				<Option output="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/bin/Homework_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/../../../../../../include/c++/11.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/../../../../../../include/c++/11.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/../../../../../../include/c++/11.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin19/11.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 Homework_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/Container.cpp">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/Container.h">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/Matrix.cpp">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/Matrix.h">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/diagonalmatrix.cpp">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/diagonalmatrix.h">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/main.cpp">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/regularmatrix.cpp">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/regularmatrix.h">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/rnd.h">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/trianglematrix.cpp">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/trianglematrix.h">
+			<Option target="Homework_02"/>
+		</Unit>
+		<Unit filename="/Users/germandilio/Documents/GitHub/ACS_Mikhaylov_German/Homework_02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

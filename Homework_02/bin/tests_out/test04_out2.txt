@@ -1,0 +1,31 @@
+Removing matrix from container...
+Filled container:
+Container contains 3 elements.
+
+0: Diagonal matrix with dimension = 1
+1 
+Average = 1
+
+1: Diagonal matrix with dimension = 9
+8.55398 0 0 0 0 0 0 0 0 
+0 6.72255 0 0 0 0 0 0 0 
+0 0 5.9682 0 0 0 0 0 0 
+0 0 0 17.5397 0 0 0 0 0 
+0 0 0 0 10.2767 0 0 0 0 
+0 0 0 0 0 10.8298 0 0 0 
+0 0 0 0 0 0 6.34169 0 0 
+0 0 0 0 0 0 0 -5.2229 0 
+0 0 0 0 0 0 0 0 -1.20532 
+Average = 0.738326
+
+2: Diagonal matrix with dimension = 8
+7.49382 0 0 0 0 0 0 0 
+0 8.55398 0 0 0 0 0 0 
+0 0 6.72255 0 0 0 0 0 
+0 0 0 5.9682 0 0 0 0 
+0 0 0 0 17.5397 0 0 0 
+0 0 0 0 0 10.2767 0 0 
+0 0 0 0 0 0 10.8298 0 
+0 0 0 0 0 0 0 6.34169 
+Average = 1.15198
+

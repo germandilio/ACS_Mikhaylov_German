@@ -1,0 +1,7 @@
+Removing matrix from container...
+Filled container:
+Container contains 1 elements.
+
+0: Triangle matrix with dimension = 1
+8.1037 
+Average = 8.1037
