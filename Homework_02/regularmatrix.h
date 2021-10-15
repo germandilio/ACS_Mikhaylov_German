@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * diagonalmatrix.h - содержит описание матрицы(двумерный массив)  и его интерфейса
+ * regularmatrix.h - declaration of 2 dimension matrix and its interface.
  */
 
 #ifndef __regularMatrix__
@@ -29,22 +29,17 @@
 
 class RegularMatrix : public Matrix {
  private:
-    // указатель на инкапсулированный двумерный массив
-    double **_matrix;
+    double **matrix_;
 
  public:
     explicit RegularMatrix(int length);
 
-    // Ввод двумерной матрицы
     void in(std::ifstream &ifStream) override;
 
-    // Случайный ввод двумерной матрицы
     void inRandom() override;
 
-    // Вывод двумерной матрицы
     void out(std::ofstream &ofStream) override;
 
-    // Вычисление среднего значения двумерной матрицы
     double getAverage() override;
 };
 

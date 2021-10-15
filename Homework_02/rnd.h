@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * rnd.h - содержит описание и реализацию методов рандома.
+ * rnd.h - get random dimension (int), random number from first to last (double)
  */
 
 #ifndef __rnd__
@@ -37,18 +37,16 @@ class Random {
             _first = last;
             _last = first;
         }
-        // системные часы в качестве инициализатора
-        srand(static_cast<unsigned int>(time(0)));
+         srand(static_cast<unsigned int>(time(0)));
     }
 
-    // Рандомное double значение от first до last
+    // Get random floating point number from first to last
     inline double getRandom() {
         auto range = static_cast<double>(_last - _first);
         double div = RAND_MAX / range;
         return _first + (rand() / div);
     }
 
-    // Рандомное целое значение от 1 до 20
     static inline int getRandomDimension() {
         return rand() % 20 + 1;
     }

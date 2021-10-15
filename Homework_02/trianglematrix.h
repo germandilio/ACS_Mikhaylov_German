@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * trianglematrix.h - содержит описание нижнетругольной матрицы
+ * trianglematrix.h - declaration of lower triangular matrix and its interface.
  */
 
 #ifndef __triangleMatrix__
@@ -27,26 +27,20 @@
 #include <fstream>
 #include "Matrix.h"
 
-// Нижняя треугольная матрица
 class TriangleMatrix : public Matrix {
  private:
-    int _dim;
-    // указатель на инкапсулированый массив
-    double *_triangleMatrix;
+    int dim_;
+    double *triangleMatrix_;
 
  public:
     explicit TriangleMatrix(int length);
 
-    // Вывод нижнетреугольной матрицы
     void out(std::ofstream &ofStream) override;
 
-    // Ввод рандомной нижнетреугольной матрицы
     void inRandom() override;
 
-    // Получение среднего значения элементов матрицы
     double getAverage() override;
 
-    // Ввод нижнетреугольной матрицы
     void in(std::ifstream &ifStream) override;
 };
 

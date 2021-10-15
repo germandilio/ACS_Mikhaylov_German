@@ -18,8 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * Matrix.cpp - содержит реализацию статических методов абстрактного класса Matrix
- * для создания конкретных унаследованных форм матриц
+ * Matrix.cpp - static methods of Matrix class
  */
 
 #include <iostream>
@@ -31,7 +30,7 @@
 #include "rnd.h"
 
 Matrix::Matrix(int length) {
-    _length = length;
+    length_ = length;
 }
 
 Matrix *Matrix::staticIn(std::ifstream &ifStream) {

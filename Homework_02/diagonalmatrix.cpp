@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * diagonalmatrix.cpp - содержит реализацию методов класса DiagonalMatrix.
+ * diagonalmatrix.cpp - methods implementation of DiagonalMatrix class.
  */
 
 #include "diagonalmatrix.h"
@@ -27,15 +27,15 @@
 #include <fstream>
 
 DiagonalMatrix::DiagonalMatrix(int length) : Matrix(length) {
-    _diagonal = nullptr;
+    diagonal_ = nullptr;
 }
 
 void DiagonalMatrix::out(std::ofstream &ofStream) {
-    ofStream << "Diagonal matrix with dimension = " << _length << "\n";
-    for (int i = 0; i < _length; ++i) {
-        for (int j = 0; j < _length; ++j) {
+    ofStream << "Diagonal matrix with dimension = " << length_ << "\n";
+    for (int i = 0; i < length_; ++i) {
+        for (int j = 0; j < length_; ++j) {
             if (i == j) {
-                ofStream << _diagonal[i] << " ";
+                ofStream << diagonal_[i] << " ";
             } else {
                 ofStream << 0 << " ";
             }
@@ -48,25 +48,25 @@ void DiagonalMatrix::out(std::ofstream &ofStream) {
 double DiagonalMatrix::getAverage() {
     double sum = 0.0;
 
-    for (int i = 0; i < _length; ++i) {
-        sum += _diagonal[i];
+    for (int i = 0; i < length_; ++i) {
+        sum += diagonal_[i];
     }
-    return sum / (_length * _length);
+    return sum / (length_ * length_);
 }
 
 void DiagonalMatrix::in(std::ifstream &ifStream) {
-    _diagonal = new double[_length];
+    diagonal_ = new double[length_];
 
-    for (int i = 0; i < _length; ++i) {
-        ifStream >> _diagonal[i];
+    for (int i = 0; i < length_; ++i) {
+        ifStream >> diagonal_[i];
     }
 }
 
 void DiagonalMatrix::inRandom() {
-    _diagonal = new double[_length];
+    diagonal_ = new double[length_];
 
     Random random = Random(-10, 20);
-    for (int i = 0; i < _length; ++i) {
-        _diagonal[i] = random.getRandom();
+    for (int i = 0; i < length_; ++i) {
+        diagonal_[i] = random.getRandom();
     }
 }

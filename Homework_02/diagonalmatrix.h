@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * diagonalmatrix.h - содержит описание диагональной матрицы и ее интерфейса
+ * diagonalmatrix.h - declaration of diagonal matrix and public interface
  */
 
 #ifndef __diagonalMatrix__
@@ -29,22 +29,17 @@
 // диагональная матрица
 class DiagonalMatrix : public Matrix {
  private:
-    // указатель на инкапсулированный одномерный массив
-    double *_diagonal;
+    double *diagonal_;
 
  public:
     explicit DiagonalMatrix(int length);
 
-    // Ввод диагональной матрицы
     void in(std::ifstream &ifStream) override;
 
-    // Случайный ввод диагональной матрицы
     void inRandom() override;
 
-    // Вывод диагональной матрицы
     void out(std::ofstream &ofStream) override;
 
-    // Вычисление среднего значения диагональной матрицы
     double getAverage() override;
 };
 

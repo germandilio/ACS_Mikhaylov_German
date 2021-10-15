@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * trianglematrix.cpp - содержит реализацию процедур для ввода, вывода нижнетреугольной матрицы.
+ * trianglematrix.cpp - declaration of in/out methods in TriangleMatrix class.
  */
 
 #include "trianglematrix.h"
@@ -26,19 +26,19 @@
 
 
 TriangleMatrix::TriangleMatrix(int length) : Matrix(length) {
-    _triangleMatrix = nullptr;
-    _dim = 0;
+    triangleMatrix_ = nullptr;
+    dim_ = 0;
 }
 
 void TriangleMatrix::out(std::ofstream &ofStream) {
-    ofStream << "Triangle matrix with dimension = " << _length << "\n";
-    for (int i = 0; i < _length; ++i) {
-        for (int j = 0; j < _length; ++j) {
+    ofStream << "Triangle matrix with dimension = " << length_ << "\n";
+    for (int i = 0; i < length_; ++i) {
+        for (int j = 0; j < length_; ++j) {
             if (j > i) {
                 ofStream << 0 << " ";
             } else {
-                int pos = (_length * i) + j - ((i * (i + 1)) / 2);
-                ofStream << _triangleMatrix[pos] << " ";
+                int pos = (length_ * i) + j - ((i * (i + 1)) / 2);
+                ofStream << triangleMatrix_[pos] << " ";
             }
         }
         ofStream << "\n";
@@ -47,29 +47,29 @@ void TriangleMatrix::out(std::ofstream &ofStream) {
 }
 
 void TriangleMatrix::inRandom() {
-    _dim = _length * (_length + 1) / 2;
-    _triangleMatrix = new double[_dim];
+    dim_ = length_ * (length_ + 1) / 2;
+    triangleMatrix_ = new double[dim_];
 
     Random random = Random(-10, 20);
-    for (int i = 0; i < _dim; ++i) {
-        _triangleMatrix[i] = random.getRandom();
+    for (int i = 0; i < dim_; ++i) {
+        triangleMatrix_[i] = random.getRandom();
     }
 }
 
 double TriangleMatrix::getAverage() {
     double sum = 0.0;
 
-    for (int i = 0; i < _length; ++i) {
-        sum += _triangleMatrix[i];
+    for (int i = 0; i < length_; ++i) {
+        sum += triangleMatrix_[i];
     }
-    return sum / (_length * _length);
+    return sum / (length_ * length_);
 }
 
 void TriangleMatrix::in(std::ifstream &ifStream) {
-    _dim = _length * (_length + 1) / 2;
-    _triangleMatrix = new double[_dim];
+    dim_ = length_ * (length_ + 1) / 2;
+    triangleMatrix_ = new double[dim_];
 
-    for (int i = 0; i < _dim; ++i) {
-        ifStream >> _triangleMatrix[i];
+    for (int i = 0; i < dim_; ++i) {
+        ifStream >> triangleMatrix_[i];
     }
 }

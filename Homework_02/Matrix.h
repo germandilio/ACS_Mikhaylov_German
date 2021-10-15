@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * Matrix.h - содержит описание абстрактного класса матрицы.
+ * Matrix.h - declaration of abstract class Matrix.
  */
 
 #ifndef __matrix__
@@ -26,10 +26,9 @@
 
 #include <iosfwd>
 
-// класс-абстракция, обобщающий все имеющиеся матрицы
 class Matrix {
  protected:
-    int _length;
+    int length_;
  public:
     explicit Matrix(int length);
 
@@ -39,16 +38,12 @@ class Matrix {
 
     static Matrix *staticInRandom();
 
-    // Виртуальный метод ввода матрицы
     virtual void in(std::ifstream &ifStream) = 0;
 
-    // Виртуальный метод задания рандомной матрицы
     virtual void inRandom() = 0;
 
-    // Виртуальный метод вывода матрицы
     virtual void out(std::ofstream &ofStream) = 0;
 
-    // Вычисление среднего значения матрицы
     virtual double getAverage() = 0;
 };
 

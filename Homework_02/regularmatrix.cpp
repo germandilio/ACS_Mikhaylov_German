@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * regularmatrix.cpp - содержит реализацию процедур для ввода, вывода обычной матрицы.
+ * regularmatrix.cpp - declaration of in/out methods in RegularMatrix class.
  */
 
 #include <iostream>
@@ -26,26 +26,26 @@
 #include "rnd.h"
 
 RegularMatrix::RegularMatrix(int length) : Matrix(length) {
-    _matrix = nullptr;
+    matrix_ = nullptr;
 }
 
 double RegularMatrix::getAverage() {
     double sum = 0.0;
 
-    for (int i = 0; i < _length; ++i) {
-        for (int j = 0; j < _length; ++j) {
-            sum += _matrix[i][j];
+    for (int i = 0; i < length_; ++i) {
+        for (int j = 0; j < length_; ++j) {
+            sum += matrix_[i][j];
         }
     }
-    return sum / (_length * _length);
+    return sum / (length_ * length_);
 }
 
 
 void RegularMatrix::out(std::ofstream &ofStream) {
-    ofStream << "Regular matrix with dimension = " << _length << "\n";
-    for (int i = 0; i < _length; ++i) {
-        for (int j = 0; j < _length; ++j) {
-            ofStream << _matrix[i][j] << " ";
+    ofStream << "Regular matrix with dimension = " << length_ << "\n";
+    for (int i = 0; i < length_; ++i) {
+        for (int j = 0; j < length_; ++j) {
+            ofStream << matrix_[i][j] << " ";
         }
         ofStream << "\n";
     }
@@ -53,24 +53,24 @@ void RegularMatrix::out(std::ofstream &ofStream) {
 }
 
 void RegularMatrix::in(std::ifstream &ifStream) {
-    _matrix = new double *[_length];
+    matrix_ = new double *[length_];
 
-    for (int i = 0; i < _length; ++i) {
-        _matrix[i] = new double[_length];
-        for (int j = 0; j < _length; ++j) {
-            ifStream >> _matrix[i][j];
+    for (int i = 0; i < length_; ++i) {
+        matrix_[i] = new double[length_];
+        for (int j = 0; j < length_; ++j) {
+            ifStream >> matrix_[i][j];
         }
     }
 }
 
 void RegularMatrix::inRandom() {
-    _matrix = new double *[_length];
+    matrix_ = new double *[length_];
 
     Random random = Random(-10, 20);
-    for (int i = 0; i < _length; ++i) {
-        _matrix[i] = new double[_length];
-        for (int j = 0; j < _length; ++j) {
-            _matrix[i][j] = random.getRandom();
+    for (int i = 0; i < length_; ++i) {
+        matrix_[i] = new double[length_];
+        for (int j = 0; j < length_; ++j) {
+            matrix_[i][j] = random.getRandom();
         }
     }
 }

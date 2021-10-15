@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * Container.h - содержит тип данных, представляющий простейший контейнер
+ * Container.h - simple container data structure
  */
 
 #ifndef __container__
@@ -27,29 +27,22 @@
 
 #include "Matrix.h"
 
-// Контейнер на основе одномерного массива
 class Container {
  private:
-    int _length;
-    Matrix *_container[MAX_LENGTH];
+    int length_;
+    Matrix *container_[MAX_LENGTH];
 
  public:
-    // Конструктор контейнера
     Container();
 
-    // Деструктор контейнера от элементов (освобождение памяти)
     ~Container();
 
-    // Ввод содержимого контейнера из указанного потока
     void in(std::ifstream &ifStream);
 
-    // Случайный ввод содержимого контейнера
     void inRandom(int size);
 
-    // Вывод содержимого контейнера в указанный поток
     void out(std::ofstream &ofStream);
 
-    // Удаление элементов в контейнере, если ср. арифметическое < ср. ар. всего контейнера
     void removeByAverage();
 };
 

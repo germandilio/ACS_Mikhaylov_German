@@ -18,7 +18,7 @@
 //-------------------------------------------------------------------------
 
 /**
- * container.cpp - содержит функции обработки контейнера
+ * container.cpp - functions of input, output and removing by average
  */
 
 #include <iostream>
@@ -26,58 +26,58 @@
 #include "Container.h"
 #include "Matrix.h"
 
-Container::Container() : _length(0) {}
+Container::Container() : length_(0) {}
 
 Container::~Container() {
-    for (int i = 0; i < _length; ++i) {
-        delete _container[i];
+    for (int i = 0; i < length_; ++i) {
+        delete container_[i];
     }
-    _length = 0;
+    length_ = 0;
 }
 
 void Container::in(std::ifstream &ifStream) {
     while (!ifStream.eof()) {
-        if ((_container[_length] = Matrix::staticIn(ifStream)) != nullptr) {
-            ++_length;
+        if ((container_[length_] = Matrix::staticIn(ifStream)) != nullptr) {
+            ++length_;
         }
     }
 }
 
 void Container::inRandom(int size) {
-    while (_length < size) {
-        if ((_container[_length] = Matrix::staticInRandom()) != nullptr) {
-            _length++;
+    while (length_ < size) {
+        if ((container_[length_] = Matrix::staticInRandom()) != nullptr) {
+            length_++;
         }
     }
 }
 
 void Container::out(std::ofstream &ofStream) {
-    ofStream << "Container contains " << _length << " elements.\n" << std::endl;
-    for (int i = 0; i < _length; i++) {
+    ofStream << "Container contains " << length_ << " elements.\n" << std::endl;
+    for (int i = 0; i < length_; i++) {
         ofStream << i << ": ";
-        _container[i]->out(ofStream);
+        container_[i]->out(ofStream);
     }
 }
 
 void Container::removeByAverage() {
     double sum = 0.0;
-    for (int i = 0; i < _length; ++i) {
-        sum += _container[i]->getAverage();
+    for (int i = 0; i < length_; ++i) {
+        sum += container_[i]->getAverage();
     }
-    double containerAverage = sum / _length;
+    double containerAverage = sum / length_;
 
-    Matrix *containerAfterDelete[_length];
+    Matrix *containerAfterDelete[length_];
     int pointer = 0;
-    for (int i = 0; i < _length; ++i) {
-        if (_container[i]->getAverage() >= containerAverage) {
-            containerAfterDelete[pointer] = _container[i];
+    for (int i = 0; i < length_; ++i) {
+        if (container_[i]->getAverage() >= containerAverage) {
+            containerAfterDelete[pointer] = container_[i];
             ++pointer;
         }
     }
-    _length = pointer;
+    length_ = pointer;
 
-    for (int i = 0; i < _length; ++i) {
-        _container[i] = containerAfterDelete[i];
+    for (int i = 0; i < length_; ++i) {
+        container_[i] = containerAfterDelete[i];
     }
 }
 
