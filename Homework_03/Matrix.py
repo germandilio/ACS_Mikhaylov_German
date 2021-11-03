@@ -29,3 +29,6 @@ class Matrix:
 
     def get_average(self):
         pass
+
+    def random_input(self):
+        pass
